@@ -1,8 +1,7 @@
-import "./App.css";
+import "./App.scss";
 import "../public/font/Poppins/poppins.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home/Home";
-import Footer from "./Components/Footer/Footer";
 import NavBar from "./Components/NavBar/NavBar";
 import SobreMi from "./Components/SobreMi/SobreMi";
 import Estudios from "./Components/Estudios/Estudios";
@@ -23,8 +22,6 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-
-        <Footer />
       </BrowserRouter>
     </>
   );

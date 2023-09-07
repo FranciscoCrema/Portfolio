@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles.scss";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
@@ -8,6 +9,7 @@ import IconStudy from "../../../public/font/Icons/IconStudy";
 import IconContact from "../../../public/font/Icons/IconContact";
 import IconPortafolio from "../../../public/font/Icons/IconPortafolio";
 import IconBlog from "../../../public/font/Icons/IconBlog";
+import Footer from "../Footer/Footer";
 
 function NavBar() {
   return (
@@ -18,13 +20,13 @@ function NavBar() {
           <div className="user-info__general">
             <div className="user-info__container-img">
               <img
-                src="../../../public/img/default-user.jpg"
+                src="../../../public/img/foto-perfil.jpeg"
                 alt="Foto perfil"
                 className="user-info__img"
               />
-              <h2 className="user-info__name">Francisco Crema</h2>
-              <h4 className="user-info__job">Desarrollador web</h4>
             </div>
+            <h2 className="user-info__name">Francisco Crema</h2>
+            <h4 className="user-info__job">Desarrollador web</h4>
           </div>
 
           {/* Nav*/}
@@ -32,76 +34,81 @@ function NavBar() {
             <ul className="menu__list">
               <li className="menu__option">
                 <Link to={"/"} className="menu__link">
-                  <IconHome />
+                  <i className="menu__icon">
+                    <IconHome />
+                  </i>
                   <span className="menu__overlay">Home</span>
                 </Link>
               </li>
-            </ul>
-            <ul className="menu__list">
+
               <li className="menu__option">
                 <Link to={"/sobre-mi"} className="menu__link">
-                  <IconPerson />
+                  <i className="menu__icon">
+                    <IconPerson />
+                  </i>
                   <span className="menu__overlay">Sobre Mi</span>
                 </Link>
               </li>
-            </ul>
-            <ul className="menu__list">
+
               <li className="menu__option">
                 <Link to={"/estudios"} className="menu__link">
-                  <IconStudy />
+                  <i className="menu__icon">
+                    <IconStudy />
+                  </i>
                   <span className="menu__overlay">Estudios</span>
                 </Link>
               </li>
-            </ul>
-            <ul className="menu__list">
+
               <li className="menu__option">
                 <Link to={"/portafolio"} className="menu__link">
-                  <IconPortafolio />
+                  <i className="menu__icon">
+                    <IconPortafolio />
+                  </i>
                   <span className="menu__overlay">Portafolio</span>
                 </Link>
               </li>
-            </ul>
-            <ul className="menu__list">
+
               <li className="menu__option">
                 <Link to={"/blog"} className="menu__link">
-                  <IconBlog />
+                  <i className="menu__icon">
+                    <IconBlog />
+                  </i>
                   <span className="menu__overlay">Blog</span>
                 </Link>
               </li>
-            </ul>
-            <ul className="menu__list">
+
               <li className="menu__option">
                 <Link to={"/contacto"} className="menu__link">
-                  <IconContact />
+                  <i className="menu__icon">
+                    <IconContact />
+                  </i>
                   <span className="menu__overlay">Contacto</span>
                 </Link>
               </li>
             </ul>
           </nav>
 
-          <div className="user-info__user-links">
+          <div className="user-info__links">
             <ul className="links__social">
               <li className="social__option">
                 <Link to={"#"} className="social__link">
-                  <div className="social__icon">
+                  <i className="social__icon">
                     <BsInstagram />
-                  </div>
+                  </i>
                 </Link>
               </li>
-
               <li className="social__option">
                 <Link to={"#"} className="social__link">
-                  <div className="social__icon">
+                  <i className="social__icon">
                     <BsLinkedin />
-                  </div>
+                  </i>
                 </Link>
               </li>
-
               <li className="social__option">
                 <Link to={"#"} className="social__link">
-                  <div className="social__icon">
+                  <i className="social__icon">
                     <BsGithub />
-                  </div>
+                  </i>
                 </Link>
               </li>
             </ul>
@@ -112,8 +119,19 @@ function NavBar() {
               Descargar CV
             </Link>
           </div>
+
+          <footer className="user-info__footer">
+            <Footer />
+          </footer>
         </section>
       </aside>
+
+      <main className="layout__content">
+        <section className="content__page">
+          <h1 className="page__name">Francisco Crema</h1>
+          <h2 className="page__job">Desarrollador web Front-End</h2>
+        </section>
+      </main>
     </div>
   );
 }

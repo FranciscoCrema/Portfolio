@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="user-info__footer">&copy; 2024 Francisco Crema</footer>
+    <>
+      <Link to={"https://www.linkedin.com/in/franciscocrema/"}>
+        &copy; 2024 Francisco Crema
+      </Link>
+    </>
   );
 }
 

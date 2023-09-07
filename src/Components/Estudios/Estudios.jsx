@@ -1,7 +1,7 @@
 import React from "react";
 
 function Estudios() {
-  return <div>Estudios</div>;
+  return <>Estudios</>;
 }
 
 export default Estudios;
