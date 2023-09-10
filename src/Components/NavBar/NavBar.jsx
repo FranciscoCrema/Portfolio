@@ -120,9 +120,7 @@ function NavBar() {
             </Link>
           </div>
 
-          <footer className="user-info__footer">
-            <Footer />
-          </footer>
+          <Footer />
         </section>
       </aside>
 

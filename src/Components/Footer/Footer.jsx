@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <>
-      <Link to={"https://www.linkedin.com/in/franciscocrema/"}>
-        &copy; 2024 Francisco Crema
-      </Link>
-    </>
+    <footer>
+      <div className="user-info__footer">
+        <Link to={"https://www.linkedin.com/in/franciscocrema/"}>
+          &copy; 2024 Francisco Crema
+        </Link>
+      </div>
+    </footer>
   );
 }
 
