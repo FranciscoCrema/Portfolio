@@ -1,5 +1,4 @@
 import React from "react";
-import "../../styles.scss";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
@@ -13,7 +12,7 @@ import Footer from "../Footer/Footer";
 
 function NavBar() {
   return (
-    <div className="layout">
+    <>
       <aside className="layout__aside">
         <section className="aside__user-info">
           {/* Informacion General */}
@@ -123,14 +122,7 @@ function NavBar() {
           <Footer />
         </section>
       </aside>
-
-      <main className="layout__content">
-        <section className="content__page">
-          <h1 className="page__name">Francisco Crema</h1>
-          <h2 className="page__job">Desarrollador web Front-End</h2>
-        </section>
-      </main>
-    </div>
+    </>
   );
 }
 

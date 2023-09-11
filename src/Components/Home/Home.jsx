@@ -1,10 +1,11 @@
 import React from "react";
-import Main from "./Main";
+import "./home.scss";
 
 function Home() {
   return (
     <>
-      <Main />
+      <h1 className="page__name">Francisco Crema</h1>
+      <h2 className="page__job">Desarrollador web Front-End</h2>
     </>
   );
 }
