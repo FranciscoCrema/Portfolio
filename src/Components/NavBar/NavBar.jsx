@@ -50,11 +50,11 @@ function NavBar() {
               </li>
 
               <li className="menu__option">
-                <Link to={"/estudios"} className="menu__link">
+                <Link to={"/curriculum"} className="menu__link">
                   <i className="menu__icon">
                     <IconStudy />
                   </i>
-                  <span className="menu__overlay">Estudios</span>
+                  <span className="menu__overlay">Curriculum</span>
                 </Link>
               </li>
 
