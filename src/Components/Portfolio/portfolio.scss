@@ -1,0 +1,135 @@
+@import "../variables.scss";
+
+.content__portfolio {
+  display: block;
+  height: 100%;
+  max-height: 100%;
+  padding: 6rem;
+  padding-right: 3rem;
+  overflow: auto;
+
+  .portfolio__header {
+    display: inline-block;
+    margin-bottom: 4rem;
+
+    .portfolio__title {
+      font-size: 3.2rem;
+      position: relative;
+    }
+
+    .portfolio__title::after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: -25px;
+      width: 50px;
+      height: 30px;
+      background-image: -webkit-repeating-radial-gradient(
+        center center,
+        $color-secondary,
+        $color-secondary 1px,
+        transparent 0px,
+        transparent 100%
+      );
+      background-size: 6px 6px;
+      opacity: 0.3;
+    }
+  }
+
+  .portfolio__navbar {
+    margin-bottom: 3rem;
+
+    .portfolio__menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+
+      .portfolio__option {
+        font-size: 1.3rem;
+        opacity: 0.7;
+
+        .portfolio__link {
+          cursor: pointer;
+          transition: all 300ms ease-in-out;
+        }
+
+        .portfolio__link:hover {
+          color: $color-secondary;
+          text-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+        }
+      }
+
+      .portfolio__option--active {
+        opacity: 1;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .portfolio__gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .gallery__item {
+      position: relative;
+      flex-basis: 33%;
+      padding: 0.7rem;
+
+      .gallery__container-img {
+        overflow: hidden;
+        border-radius: 2rem;
+
+        .gallery__img {
+          filter: grayscale(1);
+          transition: all 300ms ease-in-out;
+        }
+      }
+
+      .gallery__title {
+        font-size: 1.6rem;
+        padding: 1.5rem 0;
+        font-weight: bold;
+      }
+
+      .gallery__icon {
+        opacity: 0;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        width: 3rem;
+        height: 2.5rem;
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 3rem;
+        background-color: $color-principal;
+        color: $color-secondary;
+        transition: all 300ms ease-in-out;
+      }
+
+      .gallery__category {
+        opacity: 0;
+        position: absolute;
+        top: 1.5rem;
+        left: 1.5rem;
+        padding: 0.2rem 0.6rem;
+        font-size: 1.1rem;
+        background-color: $color-principal;
+        color: $color-text;
+        border-radius: 1rem;
+        transition: all 300ms ease-in-out;
+      }
+    }
+
+    .gallery__item:hover .gallery__img {
+      filter: grayscale(0);
+      transform: scale(1.1);
+    }
+
+    .gallery__item:hover .gallery__icon,
+    .gallery__item:hover .gallery__category {
+      opacity: 1;
+    }
+  }
+}
