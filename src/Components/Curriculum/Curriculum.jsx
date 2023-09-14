@@ -172,7 +172,7 @@ function Curriculum() {
             </article>
 
             <div className="skills__progessbar">
-              <div className="skills__peercentage"></div>
+              <div className="skills__percentage skills__percentage--p1"></div>
             </div>
 
             <article className="skills__title">
@@ -181,7 +181,7 @@ function Curriculum() {
             </article>
 
             <div className="skills__progessbar">
-              <div className="skills__peercentage"></div>
+              <div className="skills__percentage skills__percentage--p2"></div>
             </div>
           </div>
 
@@ -198,7 +198,7 @@ function Curriculum() {
             </article>
 
             <div className="skills__progessbar">
-              <div className="skills__peercentage"></div>
+              <div className="skills__percentage skills__percentage--p3"></div>
             </div>
 
             <article className="skills__title">
@@ -207,7 +207,7 @@ function Curriculum() {
             </article>
 
             <div className="skills__progessbar">
-              <div className="skills__peercentage"></div>
+              <div className="skills__percentage skills__percentage--p4"></div>
             </div>
 
             <article className="skills__title">
@@ -216,7 +216,7 @@ function Curriculum() {
             </article>
 
             <div className="skills__progessbar">
-              <div className="skills__peercentage"></div>
+              <div className="skills__percentage skills__percentage--p5"></div>
             </div>
 
             <article className="skills__title">
@@ -225,7 +225,7 @@ function Curriculum() {
             </article>
 
             <div className="skills__progessbar">
-              <div className="skills__peercentage"></div>
+              <div className="skills__percentage skills__percentage--p6"></div>
             </div>
           </div>
 
