@@ -12,7 +12,7 @@ function Portfolio() {
         <h1 className="portfolio__title">Portfolio</h1>
       </header>
 
-      <nav className="portfolio__navbar">
+      {/* <nav className="portfolio__navbar">
         <ul className="portfolio__menu">
           <li className="portfolio__option portfolio__option--active">
             <Link to="#" className="portfolio__link">
@@ -45,124 +45,136 @@ function Portfolio() {
             </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
       <section className="portfolio__gallery">
         <figure className="gallery__item">
           <div className="gallery__container-img">
-            <Link to={"#"} className="gallery_link">
+            <div className="gallery_link">
               <img
                 src="../../../public/img/galeria-1.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
-            </Link>
+            </div>
           </div>
 
           <figcaption className="gallery__title">
             Produccion de video
           </figcaption>
-          <i className="gallery__icon">
-            <IconVideos />
-          </i>
+          <Link to={"#"} target="_blank">
+            <i className="gallery__icon">
+              <IconVideos />
+            </i>
+          </Link>
           <span className="gallery__category">Videos</span>
         </figure>
 
         <figure className="gallery__item">
           <div className="gallery__container-img">
-            <Link to={"#"} className="gallery_link">
+            <div className="gallery_link">
               <img
                 src="../../../public/img/galeria-2.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
-            </Link>
+            </div>
           </div>
 
           <figcaption className="gallery__title">
             Master en JavaScript
           </figcaption>
-          <i className="gallery__icon">
-            <IconCode />
-          </i>
+          <Link to={"#"} target="_blank">
+            <i className="gallery__icon">
+              <IconCode />
+            </i>
+          </Link>
           <span className="gallery__category">Cursos</span>
         </figure>
 
         <figure className="gallery__item">
           <div className="gallery__container-img">
-            <Link to={"#"} className="gallery_link">
+            <div className="gallery_link">
               <img
                 src="../../../public/img/galeria-3.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
-            </Link>
+            </div>
           </div>
 
           <figcaption className="gallery__title">Master en React</figcaption>
-          <i className="gallery__icon">
-            <IconCode />
-          </i>
+          <Link to={"#"} target="_blank">
+            <i className="gallery__icon">
+              <IconCode />
+            </i>
+          </Link>
           <span className="gallery__category">Cursos</span>
         </figure>
 
         <figure className="gallery__item">
           <div className="gallery__container-img">
-            <Link to={"#"} className="gallery_link">
+            <div className="gallery_link">
               <img
                 src="../../../public/img/galeria-4.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
-            </Link>
+            </div>
           </div>
 
           <figcaption className="gallery__title">
             Red social tipo Twitter
           </figcaption>
-          <i className="gallery__icon">
-            <IconTwitter />
-          </i>
+          <Link to={"#"} target="_blank">
+            <i className="gallery__icon">
+              <IconTwitter />
+            </i>
+          </Link>
           <span className="gallery__category">Web</span>
         </figure>
 
         <figure className="gallery__item">
           <div className="gallery__container-img">
-            <Link to={"#"} className="gallery_link">
+            <div className="gallery_link">
               <img
                 src="../../../public/img/galeria-5.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
-            </Link>
+            </div>
           </div>
 
           <figcaption className="gallery__title">
             Master de logica en programacion
           </figcaption>
-          <i className="gallery__icon">
-            <IconCode />
-          </i>
+          <Link to={"#"} target="_blank">
+            <i className="gallery__icon">
+              <IconCode />
+            </i>
+          </Link>
           <span className="gallery__category">Cursos</span>
         </figure>
 
         <figure className="gallery__item">
           <div className="gallery__container-img">
-            <Link to={"#"} className="gallery_link">
+            <div className="gallery_link">
               <img
                 src="../../../public/img/galeria-6.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
-            </Link>
+            </div>
           </div>
 
           <figcaption className="gallery__title">
             Galeria de imagenes
           </figcaption>
-          <i className="gallery__icon">
-            <IconImage />
-          </i>
+          <Link to={"#"} target="_blank">
+            <i className="gallery__icon">
+              <IconImage />
+            </i>
+          </Link>
           <span className="gallery__category">Proyectos</span>
         </figure>
       </section>

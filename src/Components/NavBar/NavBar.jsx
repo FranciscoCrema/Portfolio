@@ -90,21 +90,33 @@ function NavBar() {
           <div className="user-info__links">
             <ul className="links__social">
               <li className="social__option">
-                <Link to={"#"} className="social__link">
+                <Link
+                  to={"https://www.instagram.com/francrema8/"}
+                  className="social__link"
+                  target="_blank"
+                >
                   <i className="social__icon">
                     <BsInstagram />
                   </i>
                 </Link>
               </li>
               <li className="social__option">
-                <Link to={"#"} className="social__link">
+                <Link
+                  to={"https://www.linkedin.com/in/franciscocrema/"}
+                  className="social__link"
+                  target="_blank"
+                >
                   <i className="social__icon">
                     <BsLinkedin />
                   </i>
                 </Link>
               </li>
               <li className="social__option">
-                <Link to={"#"} className="social__link">
+                <Link
+                  to={"https://github.com/FranciscoCrema"}
+                  className="social__link"
+                  target="_blank"
+                >
                   <i className="social__icon">
                     <BsGithub />
                   </i>
@@ -114,7 +126,12 @@ function NavBar() {
           </div>
 
           <div className="user-info__buttons">
-            <Link to={"#"} className="user-info__btn">
+            <Link
+              to={"../../../public/Curriculum.pdf"}
+              className="user-info__btn"
+              target="_blank"
+              download={"Curriculum-FranciscoCrema.pdf"}
+            >
               Descargar CV
             </Link>
           </div>
