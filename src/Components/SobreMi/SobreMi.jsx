@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import "../../scroll.scss";
 import "./sobremi.scss";
 import IconCode from "../../../public/font/Icons/IconCode";
 import IconFormacion from "../../../public/font/Icons/IconFormacion";

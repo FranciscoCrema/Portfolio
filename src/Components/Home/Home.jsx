@@ -1,4 +1,5 @@
 import React from "react";
+import "../../scroll.scss";
 import "./home.scss";
 
 function Home() {

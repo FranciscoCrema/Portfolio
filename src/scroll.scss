@@ -1,0 +1,66 @@
+@import "./Components/variables.scss";
+
+.layout__aside::-webkit-scrollbar {
+  width: 25px;
+  background-color: $color-secondary;
+}
+
+.layout__aside::-webkit-scrollbar-thumb {
+  border: 10px solid transparent;
+  box-shadow: none;
+  border-radius: 40px;
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 10px $color-principal;
+}
+
+.layout__aside:hover::-webkit-scrollbar-thumb:hover {
+  border: 2px solid transparent;
+  box-shadow: inset 0 0 0 10px $color-secondary;
+}
+
+.layout__aside-track {
+  background: transparent;
+  margin: 40px 0;
+}
+
+.content__about::-webkit-scrollbar,
+.content__resume::-webkit-scrollbar,
+.content__portfolio::-webkit-scrollbar,
+.content__contact::-webkit-scrollbar {
+  width: 25px;
+  background: transparent;
+}
+
+.content__about::-webkit-scrollbar-thumb,
+.content__resume::-webkit-scrollbar-thumb,
+.content__portfolio::-webkit-scrollbar-thumb,
+.content__contact::-webkit-scrollbar-thumb {
+  border: 10px solid transparent;
+  box-shadow: none;
+  border-radius: 40px;
+}
+
+.content__about:hover::-webkit-scrollbar-thumb,
+.content__resume:hover::-webkit-scrollbar-thumb,
+.content__portfolio:hover::-webkit-scrollbar-thumb,
+.content__contact:hover::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 0 10px $color-scrollbar;
+}
+
+.content__about:hover::-webkit-scrollbar-thumb:hover,
+.content__resume:hover::-webkit-scrollbar-thumb:hover,
+.content__portfolio:hover::-webkit-scrollbar-thumb:hover,
+.content__contact:hover::-webkit-scrollbar-thumb:hover {
+  border: 8px solid transparent;
+  box-shadow: inset 0 0 0 10px $color-secondary;
+}
+
+.content__about:hover::-webkit-scrollbar-track,
+.content__resume:hover::-webkit-scrollbar-track,
+.content__portfolio:hover::-webkit-scrollbar-track,
+.content__contact:hover::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 40px 0;
+}

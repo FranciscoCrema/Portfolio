@@ -7,7 +7,6 @@ import NavBar from "./Components/NavBar/NavBar";
 import SobreMi from "./Components/SobreMi/SobreMi";
 import Curriculum from "./Components/Curriculum/Curriculum";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import Blog from "./Components/Blog/Blog";
 import Contacto from "./Components/Contacto/Contacto";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
               <Route path="/sobre-mi" element={<SobreMi />} />
               <Route path="/curriculum" element={<Curriculum />} />
               <Route path="/portafolio" element={<Portfolio />} />
-              <Route path="/blog" element={<Blog />} />
               <Route path="/contacto" element={<Contacto />} />
             </Routes>
           </section>

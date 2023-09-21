@@ -1,4 +1,5 @@
 import React from "react";
+import "../../scroll.scss";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
@@ -7,7 +8,6 @@ import IconPerson from "../../../public/font/Icons/IconPerson";
 import IconStudy from "../../../public/font/Icons/IconStudy";
 import IconContact from "../../../public/font/Icons/IconContact";
 import IconPortafolio from "../../../public/font/Icons/IconPortafolio";
-import IconBlog from "../../../public/font/Icons/IconBlog";
 import Footer from "../Footer/Footer";
 
 function NavBar() {
@@ -64,15 +64,6 @@ function NavBar() {
                     <IconPortafolio />
                   </i>
                   <span className="menu__overlay">Portafolio</span>
-                </Link>
-              </li>
-
-              <li className="menu__option">
-                <Link to={"/blog"} className="menu__link">
-                  <i className="menu__icon">
-                    <IconBlog />
-                  </i>
-                  <span className="menu__overlay">Blog</span>
                 </Link>
               </li>
 
