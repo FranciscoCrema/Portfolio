@@ -14,7 +14,7 @@ function Contacto() {
     const timeout = setTimeout(() => {
       setIframeLoaded(true);
       setShowLoader(false);
-    }, 1000);
+    }, 500);
 
     return () => clearTimeout(timeout);
   }, []);
