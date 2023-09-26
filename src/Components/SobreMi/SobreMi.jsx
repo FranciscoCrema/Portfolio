@@ -1,6 +1,5 @@
 import "../../scroll.scss";
 import "./sobremi.scss";
-import "../responsive.scss";
 import IconCode from "../../../public/font/Icons/IconCode";
 import IconFormacion from "../../../public/font/Icons/IconFormacion";
 import IconComputer from "../../../public/font/Icons/IconComputer";

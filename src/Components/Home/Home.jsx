@@ -1,7 +1,6 @@
 import React from "react";
 import "../../scroll.scss";
 import "./home.scss";
-import "../responsive.scss";
 
 function Home() {
   return (

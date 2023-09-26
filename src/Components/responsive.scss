@@ -1,0 +1,232 @@
+@media (max-width: 1490px) {
+  body {
+    padding: 0;
+  }
+
+  /* Estilos de todo */
+  .layout {
+    min-width: auto;
+    width: 85%;
+  }
+}
+
+@media (max-width: 1320px) {
+  /* Estilos de todo */
+  .layout {
+    width: 89%;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 1160px) {
+  /* Estilos de todo */
+  .layout {
+    width: 85%;
+    margin-left: 4rem;
+  }
+
+  /* Estilos de sobre mi */
+  .content__about {
+    .about__personal-info {
+      flex-direction: column;
+
+      .personal-info__data {
+        flex-basis: 100%;
+        padding: 0;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  /* Estilos de curriculum */
+  .content__resume {
+    .resume__container {
+      flex-direction: column;
+
+      .resume__rigth {
+        flex-basis: 100%;
+        padding: 0;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .certificates__container {
+      flex-direction: column;
+
+      .certificates__certificate {
+        .certificate__logo {
+          height: auto;
+        }
+      }
+    }
+  }
+
+  /* Estilos de contacto */
+  .content__contact {
+    .contact__container {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 1060px) {
+  body {
+    background-image: none;
+    position: static;
+  }
+
+  /* Estilos de todo */
+  .layout {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    border-radius: 0;
+
+    grid-template-areas: "content";
+    grid-template-columns: 100%;
+
+    .layout__aside {
+      display: none;
+
+      /* Estilos de nav */
+      .layout__nav {
+        position: static;
+      }
+    }
+
+    /* Estilos del contenido */
+    .layout__content {
+      border-radius: 0;
+      background-color: transparent;
+      height: 100%;
+
+      .content__page {
+        border-radius: 0;
+        height: 100vh;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  /* Estilos de portfolio */
+  .content__portfolio {
+    .portfolio__gallery {
+      .gallery__item {
+        flex-basis: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  /* Estilos de sobre mi */
+  .content__about {
+    .about__personal-info {
+      flex-direction: column;
+
+      .personal-info__data {
+        flex-basis: 100%;
+        padding: 0;
+        margin-top: 2rem;
+      }
+    }
+
+    .about__services {
+      .services__container {
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .services__service {
+          flex-basis: 100%;
+          margin-right: 0;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+
+  /* Estilos de curriculum */
+  .content__resume {
+    .resume__container {
+      flex-direction: column;
+
+      .resume__rigth {
+        flex-basis: 100%;
+        padding: 0;
+        margin-bottom: 3rem;
+      }
+    }
+
+    .certificates__container {
+      flex-direction: column;
+
+      .certificates__certificate {
+        .certificate__logo {
+          height: auto;
+        }
+      }
+    }
+  }
+
+  /* Estilos de contacto */
+  .content__contact {
+    .contact__container {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .page__name {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    text-align: center;
+  }
+
+  /* Estilos de curriculum */
+  .content__resume {
+    .certificates__container {
+      flex-direction: column;
+
+      .certificates__certificate {
+        .certificate__logo {
+          height: auto;
+        }
+      }
+    }
+  }
+
+  /* Estilos de portfolio */
+  .content__portfolio {
+    .portfolio__gallery {
+      .gallery__item {
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  /* Estilos de contacto */
+  .content__contact {
+    .contact__container {
+      .contact__form-box {
+        .form__container {
+          display: flex;
+          flex-direction: column;
+
+          .form__left {
+            flex-basis: 100%;
+            margin-right: 0;
+          }
+
+          .form__right {
+            flex-basis: 100%;
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

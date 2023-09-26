@@ -1,7 +1,6 @@
 import React from "react";
 import "../../scroll.scss";
 import "./navbar.scss";
-import "../responsive.scss";
 import { Link } from "react-router-dom";
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 import IconHome from "../../../public/font/Icons/IconHome";
