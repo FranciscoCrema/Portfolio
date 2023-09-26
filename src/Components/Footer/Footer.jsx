@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.scss";
+import "../responsive.scss";
 
 function Footer() {
   return (

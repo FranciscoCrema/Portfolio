@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../../scroll.scss";
 import "./contacto.scss";
 import "./loader.scss";
+import "../responsive.scss";
 import IconLocation from "../../../public/font/Icons/IconLocation";
 import IconPhone from "../../../public/font/Icons/IconPhone";
 import IconEmail from "../../../public/font/Icons/IconEmail";

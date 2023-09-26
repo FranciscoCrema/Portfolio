@@ -1,6 +1,7 @@
 import React from "react";
 import "../../scroll.scss";
 import "./curriculum.scss";
+import "../responsive.scss";
 
 function Curriculum() {
   return (

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../../scroll.scss";
 import "./portfolio.scss";
+import "../responsive.scss";
 import IconVideos from "../../../public/font/Icons/IconVideos";
 import IconCode from "../../../public/font/Icons/IconCode";
 import IconTwitter from "../../../public/font/Icons/IconTwitter";
