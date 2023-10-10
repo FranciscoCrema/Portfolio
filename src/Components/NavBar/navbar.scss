@@ -1,5 +1,9 @@
 @import "../variables.scss";
 
+.layout__menu-toggle {
+  display: none;
+}
+
 .layout__aside {
   grid-area: aside;
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../../scroll.scss";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
@@ -9,11 +9,46 @@ import IconStudy from "../../../public/font/Icons/IconStudy";
 import IconContact from "../../../public/font/Icons/IconContact";
 import IconPortafolio from "../../../public/font/Icons/IconPortafolio";
 import Footer from "../Footer/Footer";
+import IconHamburguer from "../../../public/font/Icons/IconHamburguer";
+import IconXmark from "../../../public/font/Icons/IconXmark";
 
 function NavBar() {
+  const [isAsideVisible, setAsideVisible] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(true);
+  const menuRef = useRef(null);
+
+  const toggleAside = () => {
+    setAsideVisible(!isAsideVisible);
+    setMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setAsideVisible(false);
+    setMenuOpen(true);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        closeMenu();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <>
-      <aside className="layout__aside">
+      <aside
+        ref={menuRef}
+        className={`layout__aside ${
+          isAsideVisible ? "layout__aside--visible" : ""
+        }`}
+      >
         <section className="aside__user-info">
           {/* Informacion General */}
           <div className="user-info__general">
@@ -130,6 +165,12 @@ function NavBar() {
           <Footer />
         </section>
       </aside>
+
+      <div className="layout__menu-toggle" onClick={toggleAside}>
+        <i className="menu-toggle__icon">
+          {isMenuOpen ? <IconHamburguer /> : <IconXmark />}
+        </i>
+      </div>
     </>
   );
 }
