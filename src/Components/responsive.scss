@@ -87,6 +87,7 @@
 
     grid-template-areas: "content";
     grid-template-columns: 100%;
+    overflow-x: hidden;
 
     /* Menu hamburguesa */
     .layout__menu-toggle {
