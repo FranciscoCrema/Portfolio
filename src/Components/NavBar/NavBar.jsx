@@ -54,7 +54,7 @@ function NavBar() {
           <div className="user-info__general">
             <div className="user-info__container-img">
               <img
-                src="../../../public/img/fotoPerfil.jpg"
+                src="../../../public/img/fotoperfil.jpg"
                 alt="Foto perfil"
                 className="user-info__img"
               />

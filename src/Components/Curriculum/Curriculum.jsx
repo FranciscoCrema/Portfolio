@@ -256,7 +256,7 @@ function Curriculum() {
           <article className="certificates__certificate">
             <div className="certificate__logo">
               <img
-                src="../../../public/img/certificado-1.png"
+                src="../../../public/img/certificado.png"
                 alt="certificado"
                 className="certificate__img"
               />
@@ -271,7 +271,7 @@ function Curriculum() {
           <article className="certificates__certificate">
             <div className="certificate__logo">
               <img
-                src="../../../public/img/certificado-1.png"
+                src="../../../public/img/certificado.png"
                 alt="certificado"
                 className="certificate__img"
               />
@@ -286,7 +286,7 @@ function Curriculum() {
           <article className="certificates__certificate">
             <div className="certificate__logo">
               <img
-                src="../../../public/img/certificado-1.png"
+                src="../../../public/img/certificado.png"
                 alt="certificado"
                 className="certificate__img"
               />

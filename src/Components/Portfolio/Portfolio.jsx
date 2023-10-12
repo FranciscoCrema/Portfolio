@@ -18,7 +18,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria-1.jpg"
+                src="../../../public/img/galeria1.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -40,7 +40,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria-2.jpg"
+                src="../../../public/img/galeria2.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -62,7 +62,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria-3.jpg"
+                src="../../../public/img/galeria3.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -82,7 +82,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria-4.jpg"
+                src="../../../public/img/galeria4.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -104,7 +104,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria-5.jpg"
+                src="../../../public/img/galeria5.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -126,7 +126,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria-6.jpg"
+                src="../../../public/img/galeria6.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
