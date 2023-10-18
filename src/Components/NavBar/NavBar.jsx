@@ -153,7 +153,7 @@ function NavBar() {
 
           <div className="user-info__buttons">
             <Link
-              to={"../../../public/Curriculum.pdf"}
+              to={"/Curriculum.pdf"}
               className="user-info__btn"
               target="_blank"
               download={"Curriculum-FranciscoCrema.pdf"}

@@ -18,7 +18,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria1.jpg"
+                src="/img/galeria1.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -40,7 +40,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria2.jpg"
+                src="/img/galeria2.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -62,7 +62,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria3.jpg"
+                src="/img/galeria3.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -82,7 +82,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria4.jpg"
+                src="/img/galeria4.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -104,7 +104,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria5.jpg"
+                src="/img/galeria5.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
@@ -126,7 +126,7 @@ function Portfolio() {
           <div className="gallery__container-img">
             <div className="gallery_link">
               <img
-                src="../../../public/img/galeria6.jpg"
+                src="/img/galeria6.jpg"
                 alt="Imagen"
                 className="gallery__img"
               />
