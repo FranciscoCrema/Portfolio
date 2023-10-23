@@ -27,6 +27,10 @@ function NavBar() {
     setMenuOpen(true);
   };
 
+  const handleMenuItemClick = () => {
+    closeMenu();
+  };
+
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (menuRef.current && !menuRef.current.contains(e.target)) {
@@ -66,7 +70,7 @@ function NavBar() {
           {/* Nav*/}
           <nav className="layout__nav">
             <ul className="menu__list">
-              <li className="menu__option">
+              <li className="menu__option" onClick={handleMenuItemClick}>
                 <Link to={"/"} className="menu__link">
                   <i className="menu__icon">
                     <IconHome />
@@ -75,7 +79,7 @@ function NavBar() {
                 </Link>
               </li>
 
-              <li className="menu__option">
+              <li className="menu__option" onClick={handleMenuItemClick}>
                 <Link to={"/sobre-mi"} className="menu__link">
                   <i className="menu__icon">
                     <IconPerson />
@@ -84,7 +88,7 @@ function NavBar() {
                 </Link>
               </li>
 
-              <li className="menu__option">
+              <li className="menu__option" onClick={handleMenuItemClick}>
                 <Link to={"/curriculum"} className="menu__link">
                   <i className="menu__icon">
                     <IconStudy />
@@ -93,7 +97,7 @@ function NavBar() {
                 </Link>
               </li>
 
-              <li className="menu__option">
+              <li className="menu__option" onClick={handleMenuItemClick}>
                 <Link to={"/portafolio"} className="menu__link">
                   <i className="menu__icon">
                     <IconPortafolio />
@@ -102,7 +106,7 @@ function NavBar() {
                 </Link>
               </li>
 
-              <li className="menu__option">
+              <li className="menu__option" onClick={handleMenuItemClick}>
                 <Link to={"/contacto"} className="menu__link">
                   <i className="menu__icon">
                     <IconContact />
