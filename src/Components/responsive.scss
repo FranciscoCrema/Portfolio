@@ -284,14 +284,83 @@
     text-align: center;
   }
 
+  /* Estilos de Sobre Mi */
+  .content__about {
+    .about__services {
+      .services__header {
+        .services__title {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+
   /* Estilos de curriculum */
   .content__resume {
-    .certificates__container {
-      flex-direction: column;
+    .resume__container {
+      .resume__left {
+        .resume__subheader {
+          .resume__subtitle {
+            font-size: 1.8rem;
+          }
+        }
 
-      .certificates__certificate {
-        .certificate__logo {
-          height: auto;
+        .resume__timelines {
+          .timelines__timeline {
+            .timeline__header {
+              text-align: left;
+              padding-right: 2rem;
+
+              flex-basis: 40%;
+
+              .timeline__year {
+                font-size: 1.1rem;
+              }
+
+              .timeline__company {
+                font-size: 0.8rem;
+              }
+            }
+
+            .timeline__description {
+              .timeline__text {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+
+      .resume__rigth {
+        .resume__subheader {
+          .resume__subtitle {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+    .resume__certificates {
+      .resume__subheader {
+        .resume__subtitle {
+          font-size: 1.8rem;
+        }
+      }
+
+      .certificates__container {
+        flex-direction: column;
+
+        .certificates__certificate {
+          .certificate__logo {
+            width: 12rem;
+            height: auto;
+          }
+          .certificate__content {
+            padding: 1.5rem 2.5rem;
+
+            .certificate__title {
+              font-size: 1.2rem;
+            }
+          }
         }
       }
     }
@@ -310,6 +379,12 @@
   .content__contact {
     .contact__container {
       .contact__form-box {
+        .contact__form-header {
+          .form-header__title {
+            font-size: 1.8rem;
+          }
+        }
+
         .form__container {
           display: flex;
           flex-direction: column;

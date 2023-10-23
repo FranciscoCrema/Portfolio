@@ -263,7 +263,7 @@ function Curriculum() {
             </div>
 
             <div className="certificate__content">
-              <h4 className="certificate__title">Curso de Desarrollo web</h4>
+              <h4 className="certificate__title">Desarrollo web</h4>
               <span className="certificate__date">20 Marzo 2022</span>
             </div>
           </article>
