@@ -1,14 +1,38 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "../../scroll.scss";
 import "./contacto.scss";
 import "./loader.scss";
 import IconLocation from "../../../public/font/Icons/IconLocation";
 import IconPhone from "../../../public/font/Icons/IconPhone";
 import IconEmail from "../../../public/font/Icons/IconEmail";
+import emailjs from "@emailjs/browser";
+import SweetAlert2 from "react-sweetalert2";
 
 function Contacto() {
   const [iframeLoaded, setIframeLoaded] = useState(false);
   const [showLoader, setShowLoader] = useState(true);
+  const [swalProps, setSwalProps] = useState({});
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_5xnez7p",
+        "template_ztidd77",
+        e.target,
+        "kqAaqgeYnuJX9xRNH"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -61,7 +85,7 @@ function Contacto() {
                 marginHeight="0"
                 marginWidth="0"
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             )}
           </div>
@@ -72,16 +96,16 @@ function Contacto() {
             </h3>
           </header>
 
-          <form action="" className="contact__form">
+          <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="form__container">
               <section className="form__left">
                 <div className="form__group">
                   <input
                     type="text"
+                    name="user_name"
                     className="form_input"
-                    name="name"
-                    required
                     placeholder="Nombre"
+                    required
                   />
                   <label htmlFor="name" className="form__label">
                     Nombre
@@ -92,9 +116,9 @@ function Contacto() {
                   <input
                     type="email"
                     className="form_input"
-                    name="email"
-                    required
                     placeholder="Email"
+                    name="user_email"
+                    required
                   />
                   <label htmlFor="email" className="form__label">
                     Email
@@ -104,10 +128,10 @@ function Contacto() {
                 <div className="form__group">
                   <input
                     type="text"
-                    className="form_input"
                     name="subject"
-                    required
+                    className="form_input"
                     placeholder="Subject"
+                    required
                   />
                   <label htmlFor="subject" className="form__label">
                     Asunto
@@ -120,8 +144,8 @@ function Contacto() {
                   <textarea
                     className="form_input form_input--textarea"
                     name="message"
-                    required
                     placeholder="Mensaje"
+                    required
                   ></textarea>
                   <label htmlFor="message" className="form__label">
                     Mensaje
@@ -133,7 +157,15 @@ function Contacto() {
               type="submit"
               className="form__button"
               value="Enviar mensaje"
+              onClick={() => {
+                setSwalProps({
+                  show: true,
+                  text: "Se a enviado correctamente",
+                  icon: "success",
+                });
+              }}
             />
+            <SweetAlert2 {...swalProps} />
           </form>
         </section>
       </div>
