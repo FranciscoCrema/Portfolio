@@ -1,16 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import "../../scroll.scss";
 import "./navbar.scss";
-import { Link } from "react-router-dom";
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 import IconHome from "../../../public/font/Icons/IconHome";
 import IconPerson from "../../../public/font/Icons/IconPerson";
 import IconStudy from "../../../public/font/Icons/IconStudy";
 import IconContact from "../../../public/font/Icons/IconContact";
 import IconPortafolio from "../../../public/font/Icons/IconPortafolio";
-import Footer from "../Footer/Footer";
 import IconHamburguer from "../../../public/font/Icons/IconHamburguer";
 import IconXmark from "../../../public/font/Icons/IconXmark";
+import Footer from "../Footer/Footer";
 
 function NavBar() {
   const [isAsideVisible, setAsideVisible] = useState(false);
@@ -102,7 +102,7 @@ function NavBar() {
                   <i className="menu__icon">
                     <IconPortafolio />
                   </i>
-                  <span className="menu__overlay">Portafolio</span>
+                  <span className="menu__overlay">Portfolio</span>
                 </Link>
               </li>
 
