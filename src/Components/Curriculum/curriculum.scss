@@ -290,7 +290,7 @@
           width: 15rem;
           height: 100%;
           padding: 2.5rem;
-          background-color: $color-background-certificate;
+          background-color: $color-background-certificateCoderHouse;
 
           display: flex;
           justify-content: center;
@@ -299,6 +299,10 @@
           .certificate__img {
             width: 100%;
           }
+        }
+
+        .miracle {
+          background-color: $color-background-certificateMiracle;
         }
 
         .certificate__content {

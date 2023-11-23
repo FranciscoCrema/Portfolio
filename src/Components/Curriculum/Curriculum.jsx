@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../scroll.scss";
 import "./curriculum.scss";
 
@@ -256,45 +257,110 @@ function Curriculum() {
           <article className="certificates__certificate">
             <div className="certificate__logo">
               <img
-                src="/img/certificado.png"
+                src="/img/logos_coderhouse.png"
                 alt="certificado"
                 className="certificate__img"
               />
             </div>
 
             <div className="certificate__content">
-              <h4 className="certificate__title">Desarrollo web</h4>
-              <span className="certificate__date">20 Marzo 2022</span>
+              <Link
+                to={
+                  "https://www.coderhouse.com/certificados/62ace869261e2a00728f56bf?lang=es"
+                }
+                target="_blank"
+              >
+                <h4 className="certificate__title">Desarrollo web</h4>
+              </Link>
+              <span className="certificate__date">07 Junio 2022</span>
             </div>
           </article>
 
           <article className="certificates__certificate">
             <div className="certificate__logo">
               <img
-                src="/img/certificado.png"
+                src="/img/logos_coderhouse.png"
                 alt="certificado"
                 className="certificate__img"
               />
             </div>
 
             <div className="certificate__content">
-              <h4 className="certificate__title">Javascript</h4>
-              <span className="certificate__date">12 junio 2022</span>
+              <Link
+                to={
+                  "https://www.coderhouse.com/certificados/6315e2600a459404f9b78277?lang=es"
+                }
+                target="_blank"
+              >
+                <h4 className="certificate__title">Javascript</h4>
+              </Link>
+              <span className="certificate__date">09 Agosto 2022</span>
             </div>
           </article>
 
           <article className="certificates__certificate">
             <div className="certificate__logo">
               <img
-                src="/img/certificado.png"
+                src="/img/logos_coderhouse.png"
                 alt="certificado"
                 className="certificate__img"
               />
             </div>
 
             <div className="certificate__content">
-              <h4 className="certificate__title">React Js</h4>
-              <span className="certificate__date">20 Octubre 2022</span>
+              <Link
+                to={
+                  "https://www.coderhouse.com/certificados/6364279123fe44000e13ae89?lang=es"
+                }
+                target="_blank"
+              >
+                <h4 className="certificate__title">React Js</h4>
+              </Link>
+              <span className="certificate__date">27 Octubre 2022</span>
+            </div>
+          </article>
+
+          <article className="certificates__certificate">
+            <div className="certificate__logo">
+              <img
+                src="/img/logos_coderhouse.png"
+                alt="certificado"
+                className="certificate__img"
+              />
+            </div>
+
+            <div className="certificate__content">
+              <Link
+                to={
+                  "https://www.coderhouse.com/certificados/6364279123fe44000e13ae8c?lang=es"
+                }
+                target="_blank"
+              >
+                <h4 className="certificate__title">Carrera Front End</h4>
+              </Link>
+              <span className="certificate__date">27 Octubre 2022</span>
+            </div>
+          </article>
+
+          <article className="certificates__certificate">
+            <div className="certificate__logo miracle">
+              <img
+                src="/img/logo-miracle.png"
+                alt="certificado"
+                className="certificate__img"
+              />
+            </div>
+
+            <div className="certificate__content">
+              <Link
+                to={
+                  "file:///Users/franciscocrema/Ponchi/Certificados/Certificado%20Miracle%20Lab%202023%20Francisco%20Crema.pdf"
+                }
+                target="_blank"
+              >
+                <h4 className="certificate__title">Miracle Lab</h4>
+              </Link>
+              <span className="certificate__date">01 Noviembre 2023</span>
             </div>
           </article>
         </section>
