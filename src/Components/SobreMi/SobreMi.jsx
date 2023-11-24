@@ -18,15 +18,21 @@ function SobreMi() {
         <section className="about__personal-info">
           <article className="personal-info__bio">
             <p className="personal-info__description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
-              facilis sed veniam excepturi quam quis perferendis alias tempore
-              animi repellat, eveniet amet, autem aperiam quo quia officia
-              mollitia voluptas! Vitae, impedit. Consequatur accusamus inventore
-              amet, rerum non, expedita laborum quae culpa quasi dicta eaque
-              maiores optio magni, aliquid ea quidem aliquam nulla harum placeat
-              modi delectus maxime id? Totam dignissimos, quas nulla veniam quia
-              impedit sunt ipsam vero, dolores veritatis aliquam ducimus ab
-              temporibus voluptate soluta, distinctio placeat? Cum, sequi.
+              Soy Francisco Luca Crema, un apasionado joven incursionando en el
+              mundo de la tecnología de la información. Inicié mi trayectoria en
+              la programación al estudiar Ingeniería en Sistemas.
+              Posteriormente, realicé cursos de Desarrollo Web Front-End, donde
+              adquirí habilidades en HTML, CSS, JavaScript y ReactJS. Además, me
+              familiaricé con herramientas como Sass, Bootstrap y Node.js.
+              Actualmente, continúo ampliando mis conocimientos en el desarrollo
+              Back-End. Me destaco por mi responsabilidad en las tareas
+              asignadas y mi compromiso con mantenerme informado sobre las
+              últimas actualizaciones en el campo.
+            </p>
+            <br />
+            <p>
+              En la sección de portfolio, encontrarás algunos de los proyectos
+              que he desarrollado desde mis inicios hasta los más recientes.
             </p>
           </article>
 
@@ -65,7 +71,7 @@ function SobreMi() {
         <section className="about__services">
           <header className="services__header">
             <h3 className="services__title">
-              Lo que <span className="title__color">hago</span>
+              Lo que <span className="title__color">ofrezco</span>
             </h3>
           </header>
 
@@ -78,11 +84,11 @@ function SobreMi() {
               </div>
 
               <div className="service__content">
-                <h3 className="service__title">Programacion</h3>
+                <h3 className="service__title">Desarrollo Front-end</h3>
                 <p className="service__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptate recusandae hic aspernatur fuga consectetur
-                  consequatur sint quo voluptas repellendus.
+                  Especializado en la creación de interfaces de usuario
+                  atractivas y funcionales utilizando las últimas tecnologías y
+                  mejores prácticas en desarrollo web.
                 </p>
               </div>
             </article>
@@ -95,11 +101,12 @@ function SobreMi() {
               </div>
 
               <div className="service__content">
-                <h3 className="service__title">Programacion</h3>
+                <h3 className="service__title">Consultoría Técnica</h3>
                 <p className="service__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptate recusandae hic aspernatur fuga consectetur
-                  consequatur sint quo voluptas repellendus.
+                  Brindo asesoramiento técnico especializado para ayudarte a
+                  tomar decisiones informadas en el desarrollo de proyectos
+                  Front-end, desde la selección de tecnologías hasta la
+                  implementación eficiente.
                 </p>
               </div>
             </article>
@@ -112,11 +119,11 @@ function SobreMi() {
               </div>
 
               <div className="service__content">
-                <h3 className="service__title">Desarrollo Web</h3>
+                <h3 className="service__title">Desarrollo Web Responsive</h3>
                 <p className="service__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptate recusandae hic aspernatur fuga consectetur
-                  consequatur sint quo voluptas repellendus.
+                  Diseño y desarrollo de sitios web totalmente receptivos para
+                  garantizar una experiencia de usuario óptima en todos los
+                  dispositivos y tamaños de pantalla.
                 </p>
               </div>
             </article>
@@ -129,11 +136,11 @@ function SobreMi() {
               </div>
 
               <div className="service__content">
-                <h3 className="service__title">Administracion</h3>
+                <h3 className="service__title">Optimización y Mantenimiento</h3>
                 <p className="service__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptate recusandae hic aspernatur fuga consectetur
-                  consequatur sint quo voluptas repellendus.
+                  Gestión eficiente de servidores y optimización de rendimiento
+                  para garantizar que tus aplicaciones web sean rápidas, seguras
+                  y siempre estén en funcionamiento.
                 </p>
               </div>
             </article>

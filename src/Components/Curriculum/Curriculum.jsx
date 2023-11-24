@@ -28,10 +28,13 @@ function Curriculum() {
               <div className="timeline__description">
                 <h3 className="timeline__title">Secundario</h3>
                 <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dignissimos consectetur reprehenderit, repellendus
-                  necessitatibus, expedita iure magnam, laborum iste labore
-                  voluptate officiis doloribus rem sequi saepe.
+                  Durante mi educación secundaria en la E.E.T. Nº464 (Técnica
+                  2), me especialicé en Electromecánica, donde obtuve
+                  conocimientos prácticos en instalaciones eléctricas, manejo de
+                  tornos y diversas herramientas. Esta formación proporcionó una
+                  sólida base técnica, permitiéndome desarrollar habilidades
+                  prácticas esenciales para el trabajo con sistemas
+                  electromecánicos y herramientas industriales.
                 </p>
               </div>
             </article>
@@ -47,10 +50,13 @@ function Curriculum() {
               <div className="timeline__description">
                 <h3 className="timeline__title">Desarrollo web</h3>
                 <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dignissimos consectetur reprehenderit, repellendus
-                  necessitatibus, expedita iure magnam, laborum iste labore
-                  voluptate officiis doloribus rem sequi saepe.
+                  En el año 2022, completé un curso intensivo de 2 meses y medio
+                  en CoderHouse, centrado en el desarrollo web Front-End.
+                  Durante este programa, adquirí habilidades fundamentales en la
+                  construcción de sitios web, enfocándome en HTML, CSS, Sass y
+                  Bootstrap. Este curso me proporcionó las bases sólidas
+                  necesarias para crear interfaces de usuario atractivas y
+                  funcionales.
                 </p>
               </div>
             </article>
@@ -66,10 +72,13 @@ function Curriculum() {
               <div className="timeline__description">
                 <h3 className="timeline__title">Javascript</h3>
                 <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dignissimos consectetur reprehenderit, repellendus
-                  necessitatibus, expedita iure magnam, laborum iste labore
-                  voluptate officiis doloribus rem sequi saepe.
+                  Durante el año 2022, participé en un curso especializado de
+                  JavaScript en CoderHouse, con una duración de 2 meses. Durante
+                  este período, adquirí conocimientos sólidos en el lenguaje de
+                  programación JavaScript, explorando conceptos fundamentales y
+                  practicando su aplicación en el desarrollo web. Este curso me
+                  permitió ampliar mis habilidades y trabajar en proyectos más
+                  dinámicos y interactivos.
                 </p>
               </div>
             </article>
@@ -85,10 +94,14 @@ function Curriculum() {
               <div className="timeline__description">
                 <h3 className="timeline__title">React Js</h3>
                 <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dignissimos consectetur reprehenderit, repellendus
-                  necessitatibus, expedita iure magnam, laborum iste labore
-                  voluptate officiis doloribus rem sequi saepe.
+                  Durante el año 2022, participé en un curso especializado de
+                  React.js en CoderHouse, con una duración de 1 mes y medio.
+                  Este curso abordó el desarrollo de aplicaciones web modernas
+                  utilizando React.js, y además, incluyó la integración con
+                  Firebase para gestionar una base de datos en tiempo real.
+                  Aprendí a construir interfaces interactivas y dinámicas, así
+                  como a vincular el front-end con una base de datos para
+                  gestionar productos y datos de manera eficiente.
                 </p>
               </div>
             </article>
@@ -101,19 +114,25 @@ function Curriculum() {
           <div className="resume__timelines">
             <article className="timelines__timeline">
               <header className="timeline__header">
-                <h4 className="timeline__year">2015 - 2016 </h4>
-                <span className="timeline__company">Plomero</span>
+                <h4 className="timeline__year">2015 - 2016</h4>
+                <span className="timeline__company">
+                  Instalador de Calefacción
+                </span>
               </header>
 
               <div className="timeline__divider"></div>
 
               <div className="timeline__description">
-                <h3 className="timeline__title">Calefaccion</h3>
+                <h3 className="timeline__title">Trabajos de Calefacción</h3>
                 <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dignissimos consectetur reprehenderit, repellendus
-                  necessitatibus, expedita iure magnam, laborum iste labore
-                  voluptate officiis doloribus rem sequi saepe.
+                  Durante el periodo 2015-2016, colaboré activamente en trabajos
+                  de instalación de calefacción, trabajando junto a mi padre,
+                  quien es un profesional en el rubro. Participé en diversas
+                  tareas, incluyendo la instalación de radiadores, piso radiante
+                  y el mantenimiento de calderas. Esta experiencia no solo me
+                  brindó habilidades técnicas en el campo, sino también la
+                  oportunidad de aprender de manera práctica y directa,
+                  contribuyendo al éxito de los proyectos de calefacción.
                 </p>
               </div>
             </article>
@@ -131,10 +150,15 @@ function Curriculum() {
               <div className="timeline__description">
                 <h3 className="timeline__title">Pasantia</h3>
                 <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dignissimos consectetur reprehenderit, repellendus
-                  necessitatibus, expedita iure magnam, laborum iste labore
-                  voluptate officiis doloribus rem sequi saepe.
+                  Durante el año 2019, realicé una pasantía en el Centro de
+                  Expresiones Contemporáneas como parte de mi último año de
+                  secundaria. En esta experiencia, me desempeñé en tareas de
+                  mantenimiento, como el cuidado de las luces y paneles
+                  utilizados para exposiciones. Además, colaboré en la
+                  organización de eventos, asegurándome de que el lugar
+                  estuviera bien decorado y listo para las exposiciones. Esta
+                  experiencia me permitió desarrollar habilidades organizativas
+                  y contribuir al éxito de eventos culturales y exposiciones.
                 </p>
               </div>
             </article>
@@ -148,12 +172,16 @@ function Curriculum() {
               <div className="timeline__divider"></div>
 
               <div className="timeline__description">
-                <h3 className="timeline__title">Metalurgico</h3>
+                <h3 className="timeline__title">Operario en Metalurgica</h3>
                 <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dignissimos consectetur reprehenderit, repellendus
-                  necessitatibus, expedita iure magnam, laborum iste labore
-                  voluptate officiis doloribus rem sequi saepe.
+                  Durante el año 2021, trabajé como operario en una empresa
+                  metalúrgica, donde me asignaron tareas especializadas en
+                  tornos a CNC. Mi responsabilidad principal fue la fabricación
+                  de diversas piezas destinadas a maquinaria agrícola. Este rol
+                  me permitió desarrollar habilidades técnicas en el manejo de
+                  tornos CNC y la producción de piezas precisas para el sector
+                  agrícola, contribuyendo al proceso de fabricación de
+                  maquinaria de alta calidad.
                 </p>
               </div>
             </article>
@@ -163,33 +191,8 @@ function Curriculum() {
         <section className="resume__rigth">
           <header className="resume__subheader">
             <h2 className="resume__subtitle">
-              Habilidades de <span className="subtitle__color">diseño</span>
-            </h2>
-          </header>
-
-          <div className="resume__skills">
-            <article className="skills__title">
-              <h4 className="skills__text">Diseño Web</h4>
-              <span className="skills__number">40%</span>
-            </article>
-
-            <div className="skills__progessbar">
-              <div className="skills__percentage skills__percentage--p1"></div>
-            </div>
-
-            <article className="skills__title">
-              <h4 className="skills__text">Diseño logo</h4>
-              <span className="skills__number">20%</span>
-            </article>
-
-            <div className="skills__progessbar">
-              <div className="skills__percentage skills__percentage--p2"></div>
-            </div>
-          </div>
-
-          <header className="resume__subheader">
-            <h2 className="resume__subtitle">
-              Habilidades de <span className="subtitle__color">color</span>
+              Habilidades de
+              <span className="subtitle__color"> Programación</span>
             </h2>
           </header>
 
@@ -239,10 +242,33 @@ function Curriculum() {
 
           <div className="resume__knowledges">
             <ul className="knowledges__list">
-              <li className="knowledges__option">Programacion</li>
-              <li className="knowledges__option">Desarrollo Web</li>
-              <li className="knowledges__option">Electricidad</li>
-              <li className="knowledges__option">Comunicacion</li>
+              <li className="knowledges__option">Desarrollo Web Front-End</li>
+              <li className="knowledges__option">Programación</li>
+              <li className="knowledges__option">Diseño Responsive</li>
+              <li className="knowledges__option">Consumo de APIs</li>
+              <li className="knowledges__option">HTML5 y Semántica Web</li>
+              <li className="knowledges__option">
+                CSS3 y Preprocesadores (Sass/SCSS)
+              </li>
+              <li className="knowledges__option">JavaScript</li>
+              <li className="knowledges__option">React.js</li>
+              <li className="knowledges__option">
+                Manejo de Estado (Redux/Context)
+              </li>
+              <li className="knowledges__option">
+                Bootstrap y Frameworks de Estilos
+              </li>
+              <li className="knowledges__option">Git y Control de Versiones</li>
+              <li className="knowledges__option">
+                Optimización de Rendimiento
+              </li>
+              <li className="knowledges__option">
+                Cross-Browser Compatibility
+              </li>
+              <li className="knowledges__option">Accesibilidad Web</li>
+              <li className="knowledges__option">
+                Electricidad y Electromecánica
+              </li>
             </ul>
           </div>
         </section>
