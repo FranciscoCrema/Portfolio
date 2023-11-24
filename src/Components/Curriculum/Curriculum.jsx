@@ -380,7 +380,7 @@ function Curriculum() {
             <div className="certificate__content">
               <Link
                 to={
-                  "file:///Users/franciscocrema/Ponchi/Certificados/Certificado%20Miracle%20Lab%202023%20Francisco%20Crema.pdf"
+                  "https://drive.google.com/file/d/1ux6fET1qEHnFXqtR0zUsyT3KEPICtjEF/view?usp=sharing"
                 }
                 target="_blank"
               >
