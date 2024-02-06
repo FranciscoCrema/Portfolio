@@ -25,15 +25,13 @@ function Portfolio() {
             </div>
           </div>
 
-          <figcaption className="gallery__title">
-            Produccion de video
-          </figcaption>
+          <figcaption className="gallery__title">Lauvi</figcaption>
           <Link to={"#"} target="_blank">
             <i className="gallery__icon">
               <IconVideos />
             </i>
           </Link>
-          <span className="gallery__category">Videos</span>
+          <span className="gallery__category">E-commerce</span>
         </figure>
 
         <figure className="gallery__item">
@@ -47,15 +45,13 @@ function Portfolio() {
             </div>
           </div>
 
-          <figcaption className="gallery__title">
-            Master en JavaScript
-          </figcaption>
+          <figcaption className="gallery__title">Futbol-club</figcaption>
           <Link to={"#"} target="_blank">
             <i className="gallery__icon">
               <IconCode />
             </i>
           </Link>
-          <span className="gallery__category">Cursos</span>
+          <span className="gallery__category">E-commerce</span>
         </figure>
 
         <figure className="gallery__item">
@@ -69,13 +65,13 @@ function Portfolio() {
             </div>
           </div>
 
-          <figcaption className="gallery__title">Master en React</figcaption>
+          <figcaption className="gallery__title">Anotador de tareas</figcaption>
           <Link to={"#"} target="_blank">
             <i className="gallery__icon">
               <IconCode />
             </i>
           </Link>
-          <span className="gallery__category">Cursos</span>
+          <span className="gallery__category">Practica</span>
         </figure>
 
         <figure className="gallery__item">
